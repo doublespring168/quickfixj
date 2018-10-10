@@ -4,7 +4,7 @@ QuickFIX/J
 [![Build Status](https://travis-ci.org/quickfix-j/quickfixj.svg?branch=master)](https://travis-ci.org/quickfix-j/quickfixj)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core)
 
-This is the official QuickFIX/J project repository.
+先install quickfixj-codegenerator 模块，不然quickfixj-core模块会找不到plugin！
 
 ## intro
 QuickFIX/J is a full featured messaging engine for the FIX protocol.
