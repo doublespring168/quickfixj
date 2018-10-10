@@ -4,7 +4,18 @@ QuickFIX/J
 [![Build Status](https://travis-ci.org/quickfix-j/quickfixj.svg?branch=master)](https://travis-ci.org/quickfix-j/quickfixj)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.quickfixj/quickfixj-core)
 
+##源码打包
 先install quickfixj-codegenerator 模块，不然quickfixj-core模块会找不到plugin！
+
+##安装依赖包到本地仓库
+
+mvn clean package install -Dmaven.javadoc.skip=true -DskipTests -PskipBundlePlugin
+
+##运行demo
+1)运行服务器，直接运行executor.bat，将出现下面服务器界面；
+
+2)运行客户端，banzai.bat，运行后将会出现下面2个界面；
+
 
 ## intro
 QuickFIX/J is a full featured messaging engine for the FIX protocol.
